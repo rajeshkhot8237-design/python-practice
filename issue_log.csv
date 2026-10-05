@@ -1,0 +1,5 @@
+Issue,Column,Action_Taken,Status
+Missing values,"sepal_length, petal_width, target",Missing values filled using median/mode,Fixed
+Duplicate rows,All columns,Duplicate row removed,Fixed
+Data type inconsistency,sepal_width,Column converted to numeric using pd.to_numeric(),Fixed
+Inconsistent categorical values,species,"Values standardized using strip(), lower() and replace()",Fixed
